@@ -1,0 +1,51 @@
+.appContainer{
+  background-color: #ffd9df;
+  height: 100vh;
+}
+.heading{
+  width: fit-content;
+  padding: 5px;
+}
+@media (max-width: 995px) {
+  .heading{
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+  .task-input input{
+    padding: 5px;
+    font-size: 17px;
+  }
+  .task-input button{
+    padding: 3px;
+    font-size: 15px;
+  }
+  .todo-item label{
+    font-size: 15px;
+  }
+  .todo-item button{
+    padding: 3px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px){
+  .heading{
+    font-size: 20px;
+    padding-bottom: 3px;
+  }
+  .task-input input{
+    padding: 3px;
+    font-size: 12px;
+  }
+  .task-input button{
+    padding: 2px;
+    font-size: 12px;
+  }
+  .todo-item label{
+    font-size: 12px;
+  }
+  .todo-item button{
+    padding: 3px;
+    font-size: 12px;
+  }
+}
